@@ -2,10 +2,10 @@
 error_reporting(0);  
 
 // CONFIG  
-$port = "app.mm88.com.bd";  
-$mac = "00:1A:79:7D:5F:03";  
-$deviceid = "432B1FE5F977C78EC435E005CCDDA0C5C9A48B837A93CCFD5819BD38F0821F22";  
-$serial = "876B928EE9910";
+$port = "tv.max4k.us";  
+$mac = "00:1A:79:00:00:63";  
+$deviceid = "2528BC818B5646BFBED05101DCF7C3AD30CF9684BD34E4D3C97DE3817532C19B";  
+$serial = "A5A3A07CE2E90";
 $currentTimestamp = time();  
 $user_ip = $_SERVER['REMOTE_ADDR'];  
 $cacheDuration = 12 * 60 * 60; // 12 hours in seconds  
@@ -286,4 +286,5 @@ function get_genres($token) {
         }  
     }  
     return $genres;
+
 }
