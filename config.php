@@ -2,10 +2,10 @@
 error_reporting(0);  
 
 // CONFIG  
-$port = "tv.max4k.us";  
-$mac = "00:1A:79:00:00:63";  
-$deviceid = "2528BC818B5646BFBED05101DCF7C3AD30CF9684BD34E4D3C97DE3817532C19B";  
-$serial = "A5A3A07CE2E90";
+$port = "4k.tvstb.me";  
+$mac = "00:1A:79:30:20:62";  
+$deviceid = "1B7E07A64F07EC96966C8BBACD5279F1B580A307C972EB6CEAB95C751A658A34";  
+$serial = "0FCC7C6985560";
 $currentTimestamp = time();  
 $user_ip = $_SERVER['REMOTE_ADDR'];  
 $cacheDuration = 12 * 60 * 60; // 12 hours in seconds  
@@ -288,3 +288,4 @@ function get_genres($token) {
     return $genres;
 
 }
+
